@@ -90,7 +90,7 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_AdaptFormer'
 ```
 
 ### Fine tuning on MobileSAM
-MobileSAM: FASTER SEGMENT ANYTHING: TOWARDS LIGHTWEIGHT SAM FOR MOBILE APPLICATIONS [[paper]](https://arxiv.org/abs/2306.14289)
+#### MobileSAM: FASTER SEGMENT ANYTHING: TOWARDS LIGHTWEIGHT SAM FOR MOBILE APPLICATIONS [[paper]](https://arxiv.org/abs/2306.14289)
 
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM'
