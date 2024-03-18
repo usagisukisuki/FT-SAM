@@ -15,7 +15,7 @@ Following [Segment Anything](https://github.com/facebookresearch/segment-anythin
    ```
 
 ## Checkpoints
-
+We use checkpoint of SAM in [vit_b](https://github.com/facebookresearch/segment-anything) version.
 
 ## Dataset
 
