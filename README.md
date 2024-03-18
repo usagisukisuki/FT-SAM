@@ -30,7 +30,22 @@ models
 ```
 
 ## Dataset
-We can evaluate two biological segmentation datasets: ISBI2012 abd ssTEM.
+We can evaluate two biological segmentation datasets: ISBI2012 (2 class) and ssTEM (5 class).
+Please download from [[FT-SAM]](https://drive.google.com/drive/folders/1oyzCByA2H64IF2Hlp643cceDk9jMr4u9?usp=drive_link) and extract them under "Dataset", and make them look like this:
+```
+Dataset
+├── ISBI2012
+    ├── Image
+        ├── train_volume00
+        ├── train_volume01
+        ├── ...
+    ├── Label
+
+├── ssTEM
+    ├── data
+    ├── ...
+
+```
 
 ## Fine tuning on SAM
 
