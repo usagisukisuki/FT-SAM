@@ -50,22 +50,30 @@ If you prepared the dataset, you can directly run the following code to train th
 python3 train.py --gpu 0 --dataset 'ssTEM' --out result_sam --modelname 'SAM' --batchsize 8 --num_classes=5 --multimask_output=True
 ```
 
-## Fine tuning on SAM with RoLA
+## Fine tuning on SAM with LoRA
+LoRA: Low-Rank Adaptation
+
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_LoRA' 
 ```
 
-## Fine tuning on SAM with ConvRoLA
+## Fine tuning on SAM with ConvLoRA
+Convolution Meets LoRA: Parameter Efficient Finetuning for Segment Anything Model
+
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_ConvLoRA'
 ```
 
 ## Fine tuning on SAM with AdaptFormer
+AdaptFormer: Adapting Vision Transformers for Scalable Visual Recognition
+
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_AdaptFormer'
 ```
 
 ## Fine tuning on MobileSAM
+MobileSAM: FASTER SEGMENT ANYTHING: TOWARDS LIGHTWEIGHT SAM FOR MOBILE APPLICATIONS
+
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM'
 ```
@@ -76,6 +84,8 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM'
 ```
 
 ## Fine tuning on SAMUS
+SAMUS: Adapting Segment Anything Model for Clinically-Friendly and Generalizable Ultrasound Image Segmentation
+
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ```
