@@ -16,6 +16,14 @@ Following [Segment Anything](https://github.com/facebookresearch/segment-anythin
 
 ## Checkpoints
 We use checkpoint of SAM in [vit_b](https://github.com/facebookresearch/segment-anything) version.
+Additionally, we also use checkpoint of MobileSAM in [mobile_sam](https://github.com/ChaoningZhang/MobileSAM).
+Please download from [Segment Anything](https://github.com/facebookresearch/segment-anything) and extract them under "models/Pretrained_model".
+```
+models
+├── Pretrained_model
+    ├── sam_vit_b_01ec64.pth
+    ├── mobile_sam.pt
+```
 
 ## Dataset
 We can evaluate two biological segmentation datasets: ISBI2012 abd ssTEM.
