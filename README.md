@@ -1,7 +1,7 @@
 # FT-SAM
 This repo is the implementation for Fine Tuning Segment Anything Model.
 <div align="center">
-  <img src="figs/sam.png" width="100%">
+  <img src="figs/sam.png" width="80%">
 </div>
 
 
