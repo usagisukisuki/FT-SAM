@@ -51,18 +51,34 @@ python3 train.py --gpu 0 --dataset 'ssTEM' --out result_sam --modelname 'SAM' --
 ```
 
 ## Fine tuning on SAM with RoLA
+```
+python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_LoRA' 
+```
 
 ## Fine tuning on SAM with ConvRoLA
+```
+python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_ConvLoRA'
+```
 
 ## Fine tuning on SAM with AdaptFormer
-
-## Fine tuning on SAM with AdaptFormer
+```
+python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_AdaptFormer'
+```
 
 ## Fine tuning on MobileSAM
+```
+python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM'
+```
 
 ## Fine tuning on MobileSAM with AdaptFormer
+```
+ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM_AdaptFormer'
+```
 
 ## Fine tuning on SAMUS
+```
+python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
+```
 
 
 ## Testing
