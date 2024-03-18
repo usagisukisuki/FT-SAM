@@ -1,8 +1,10 @@
 # FT-SAM
 This repo is the implementation for Fine Tuning Segment Anything Model.
 <div align="center">
-  <img src="figs/sam.png" width="80%">
+  <img src="figs/sam.png" width="100%">
 </div>
+
+
 ## Installation
 Following [Segment Anything](https://github.com/facebookresearch/segment-anything), `python=3.8.16`, `pytorch=1.8.0`, and `torchvision=0.9.0` are used in FT-SAM.
 1. Clone this repository.
