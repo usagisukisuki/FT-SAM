@@ -28,6 +28,12 @@ models
 ## Dataset
 We can evaluate two biological segmentation datasets: ISBI2012 abd ssTEM.
 ## Training
+### ISBI2012 (Binary segmentation)
+If you prepared the dataset, you can directly run the following code to train the model.
+
+### ssTEM (Multi-class segmentation)
+If you prepared the dataset, you can directly run the following code to train the model.
+
 
 ## Testing
 
