@@ -8,8 +8,11 @@ Following [Segment Anything](https://github.com/facebookresearch/segment-anythin
    git clone https://github.com/xianlin7/SAMUS.git
    cd SAMUS
    ```
-3. Install Pytorch and TorchVision. (you can follow the instructions here)
-4. Install other dependencies.
+2. Install Pytorch and TorchVision. (you can follow the instructions here)
+3. Install other dependencies.
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Checkpoints
 
