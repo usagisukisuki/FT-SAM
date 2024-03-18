@@ -68,25 +68,31 @@ python3 train.py --gpu 0 --dataset 'ssTEM' --out result_sam --modelname 'SAM' --
 ## Fine tuning on SAM with Anything
 
 
-### Fine tuning on SAM with LoRA
+### Fine tuning with LoRA
 LoRA: Low-Rank Adaptation [[paper]](https://arxiv.org/abs/2106.09685)
 
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_LoRA' 
 ```
 
-### Fine tuning on SAM with ConvLoRA
+### Fine tuning with ConvLoRA
 Convolution Meets LoRA: Parameter Efficient Finetuning for Segment Anything Model [[paper]](https://arxiv.org/abs/2401.17868)
 
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_ConvLoRA'
 ```
 
-### Fine tuning on SAM with AdaptFormer
+### Fine tuning with AdaptFormer
 AdaptFormer: Adapting Vision Transformers for Scalable Visual Recognition [[paper]](https://arxiv.org/abs/2205.13535)
 
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_AdaptFormer'
+```
+
+### Fine tuning with SAMUS
+SAMUS: Adapting Segment Anything Model for Clinically-Friendly and Generalizable Ultrasound Image Segmentation [[paper]](https://arxiv.org/abs/2309.06824)
+```
+python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ```
 
 ### Fine tuning on MobileSAM
@@ -99,12 +105,6 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM'
 ### Fine tuning on MobileSAM with AdaptFormer
 ```
  python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM_AdaptFormer'
-```
-
-### Fine tuning on SAMUS
-SAMUS: Adapting Segment Anything Model for Clinically-Friendly and Generalizable Ultrasound Image Segmentation [[paper]](https://arxiv.org/abs/2309.06824)
-```
-python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ```
 
 
