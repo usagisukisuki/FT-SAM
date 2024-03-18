@@ -68,36 +68,27 @@ python3 train.py --gpu 0 --dataset 'ssTEM' --out result_sam --modelname 'SAM' --
 ## Fine tuning on SAM with Anything
 
 
-### Fine tuning with LoRA
-LoRA: Low-Rank Adaptation [[paper]](https://arxiv.org/abs/2106.09685)
-
+### Fine tuning with LoRA [[paper]](https://arxiv.org/abs/2106.09685)
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_LoRA' 
 ```
 
-### Fine tuning with ConvLoRA
-Convolution Meets LoRA: Parameter Efficient Finetuning for Segment Anything Model [[paper]](https://arxiv.org/abs/2401.17868)
-
+### Fine tuning with ConvLoRA [[paper]](https://arxiv.org/abs/2401.17868)
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_ConvLoRA'
 ```
 
-### Fine tuning with AdaptFormer
-AdaptFormer: Adapting Vision Transformers for Scalable Visual Recognition [[paper]](https://arxiv.org/abs/2205.13535)
-
+### Fine tuning with AdaptFormer [[paper]](https://arxiv.org/abs/2205.13535)
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_AdaptFormer'
 ```
 
-### Fine tuning with SAMUS
-SAMUS: Adapting Segment Anything Model for Clinically-Friendly and Generalizable Ultrasound Image Segmentation [[paper]](https://arxiv.org/abs/2309.06824)
+### Fine tuning with SAMUS [[paper]](https://arxiv.org/abs/2309.06824)
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ```
 
-### Fine tuning on MobileSAM
-MobileSAM: FASTER SEGMENT ANYTHING: TOWARDS LIGHTWEIGHT SAM FOR MOBILE APPLICATIONS [[paper]](https://arxiv.org/abs/2306.14289)
-
+### Fine tuning on MobileSAM [[paper]](https://arxiv.org/abs/2306.14289)
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM'
 ```
