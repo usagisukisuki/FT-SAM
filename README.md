@@ -1,5 +1,5 @@
 # FT-SAM
-This repo is the implementation for Fine Turning Segment Anything Model.
+This repo is the implementation for Fine Tuning Segment Anything Model.
 
 ## Installation
 Following [Segment Anything](https://github.com/facebookresearch/segment-anything), `python=3.8.16`, `pytorch=1.8.0`, and `torchvision=0.9.0` are used in FT-SAM.
@@ -27,12 +27,28 @@ models
 
 ## Dataset
 We can evaluate two biological segmentation datasets: ISBI2012 abd ssTEM.
-## Training
+
+## Fine tuning on SAM
+
 ### Binary segmentation (ISBI2012)
 If you prepared the dataset, you can directly run the following code to train the model.
 
 ### Multi-class segmentation (ssTEM)
 If you prepared the dataset, you can directly run the following code to train the model.
+
+## Fine tuning on SAM with RoLA
+
+## Fine tuning on SAM with ConvRoLA
+
+## Fine tuning on SAM with AdaptFormer
+
+## Fine tuning on SAM with AdaptFormer
+
+## Fine tuning on MobileSAM
+
+## Fine tuning on MobileSAM with AdaptFormer
+
+## Fine tuning on SAMUS
 
 
 ## Testing
