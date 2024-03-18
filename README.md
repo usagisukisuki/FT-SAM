@@ -31,7 +31,14 @@ We can evaluate two biological segmentation datasets: ISBI2012 abd ssTEM.
 ## Fine tuning on SAM
 
 ### Binary segmentation (ISBI2012)
-If you prepared the dataset, you can directly run the following code to train the model.
+If you prepared the dataset, you can directly run the following code to train the model with single GPU.
+```
+python3 train.py --gpu 0 --out result_sam --num_epochs 200 --modelname 'SAM' --batchsize 8
+```
+If you use multi GPUs, you can directly run the following code.
+```
+CUDA_VISIBLE_DEVICES=0,1 python3 train.py --out result_sam --num_epochs 200 --modelname 'SAM' --batchsize 8 --multi
+```
 
 ### Multi-class segmentation (ssTEM)
 If you prepared the dataset, you can directly run the following code to train the model.
