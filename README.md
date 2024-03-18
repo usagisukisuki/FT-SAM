@@ -18,7 +18,7 @@ Following [Segment Anything](https://github.com/facebookresearch/segment-anythin
 We use checkpoint of SAM in [vit_b](https://github.com/facebookresearch/segment-anything) version.
 
 ## Dataset
-
+We can evaluate two biological segmentation datasets: ISBI2012 abd ssTEM.
 ## Training
 
 ## Testing
