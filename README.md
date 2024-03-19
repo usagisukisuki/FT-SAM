@@ -1,5 +1,7 @@
 # FT-SAM
-This repo is the implementation for Fine Tuning Segment Anything Model.
+This repo is the implementation for Fine Tuning Segment Anything Model. This segmentation model is compatible with **Binary segmetnation** and **Multi-class sementation**.
+Please try it with your various datasets.
+
 <div align="center">
   <img src="figs/sam.png" width="80%">
 </div>
