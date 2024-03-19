@@ -50,23 +50,24 @@ Dataset
 ## Fine tuning on SAM
 
 ### Binary segmentation (ISBI2012)
-If you prepared the dataset, you can directly run the following code to train the model with single GPU.
+If we prepared ISBI2012 dataset, we can directly run the following code to train the model with single GPU.
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --out result_sam --modelname 'SAM' --batchsize 8
 ```
-If you use multi GPUs, you can directly run the following code.
+If we want to utilize multi GPUs, we can directly run the following code.
 ```
 CUDA_VISIBLE_DEVICES=0,1 python3 train.py --dataset 'ISBI2012' --out result_sam --modelname 'SAM' --batchsize 8 --multi
 ```
 
 ### Multi-class segmentation (ssTEM)
-If you prepared the dataset, you can directly run the following code to train the model with single GPU.
+If we prepared ssTEM dataset, we can directly run the following code to train the model with single GPU.
 ```
 python3 train.py --gpu 0 --dataset 'ssTEM' --out result_sam --modelname 'SAM' --batchsize 8 --num_classes=5 --multimask_output=True
 ```
 
 ## Fine tuning on SAM with Anything
-
+We can try to use variour adaptation methods.
+Please run the following code to train the improvement of SAM.
 
 ### Fine tuning with LoRA [[paper]](https://arxiv.org/abs/2106.09685)
 ```
