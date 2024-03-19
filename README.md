@@ -100,5 +100,7 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM'
 
 
 ## Testing
-
+```
+python3 test.py --gpu 0 --dataset 'ISBI2012' --out result_sam --modelname 'SAM' 
+```
 
