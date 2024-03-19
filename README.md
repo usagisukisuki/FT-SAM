@@ -67,7 +67,7 @@ python3 train.py --gpu 0 --dataset 'ssTEM' --out result_sam --modelname 'SAM' --
 
 ## Fine tuning on SAM with Anything
 We can try to use variour adaptation methods.
-Please run the following code to train the improvement of SAM.
+Please run the following code to train the improved SAM.
 
 ### Fine tuning with LoRA [[paper]](https://arxiv.org/abs/2106.09685)
 ```
