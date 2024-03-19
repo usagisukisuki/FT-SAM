@@ -37,22 +37,6 @@ def data_loader(args):
                                        ut.ExtToTensor(),
                                        ut.ExtNormalize((0.466, 0.471, 0.380), (0.195, 0.194, 0.192))
                                        ])
-               
-                                   
-    elif args.modelname=='GSAM':
-        train_transform = ut.ExtCompose([ut.ExtResize((256, 256)),
-                                         ut.ExtRandomCrop((128, 128)),
-                                         ut.ExtRandomRotation(degrees=90),
-                                         ut.ExtRandomHorizontalFlip(),
-                                         ut.ExtToTensor(),
-                                         ut.ExtNormalize((0.466, 0.471, 0.380), (0.195, 0.194, 0.192))
-                                         ])
-
-        val_transform = ut.ExtCompose([ut.ExtResize((256, 256)),
-                                       ut.ExtToTensor(),
-                                       ut.ExtNormalize((0.466, 0.471, 0.380), (0.195, 0.194, 0.192))
-                                       ])
-                          
                                    
     else:
         train_transform = ut.ExtCompose([ut.ExtResize((1024, 1024)),
