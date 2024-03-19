@@ -32,7 +32,12 @@ models
 ```
 
 ## Dataset
-We can evaluate two biological segmentation datasets: ISBI2012 (2 class) and ssTEM (5 class).
+As examples, we can evaluate two biological segmentation datasets: ISBI2012 (2 class) and ssTEM (5 class) in this repo.
+
+<div align="center">
+  <img src="figs/cell.png" width="80%">
+</div>
+
 Please download from [[FT-SAM]](https://drive.google.com/drive/folders/1oyzCByA2H64IF2Hlp643cceDk9jMr4u9?usp=drive_link) and extract them under "Dataset", and make them look like this:
 ```
 Dataset
