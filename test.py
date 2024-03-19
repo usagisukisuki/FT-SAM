@@ -28,13 +28,6 @@ def data_loader(args):
                                         ut.ExtToTensor(),
                                         ut.ExtNormalize((0.466, 0.471, 0.380), (0.195, 0.194, 0.192))
                                         ])
-               
-                                   
-    elif args.modelname=='GSAM':
-        test_transform = ut.ExtCompose([ut.ExtResize((256, 256)),
-                                        ut.ExtToTensor(),
-                                        ut.ExtNormalize((0.466, 0.471, 0.380), (0.195, 0.194, 0.192))
-                                        ])
                           
                                    
     else:
